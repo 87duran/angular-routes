@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app='angularRoutes'>
+<head>
+	<title>Routing with Angular</title>
+	<link rel="stylesheet" type="text/css" href="app/styles/styles.css">
+</head>
+<body>
+
+
+<h1>Chris</h1>
+<nav>
+	<a ng-href='#/'>Main</a>
+	<a ng-href="#/other">Other</a>
+
+</nav>
+
+<div ng-view></div>
+
+<!-- Angular -->
+<script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js'></script>
+<script type="text/javascript" src='http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-route.min.js'></script>
+
+<script type="text/javascript" src='app/js/app.js'></script>
+<script type="text/javascript" src='app/js/controllers/mainCtrl.js'></script>
+<script type="text/javascript" src='app/js/services/mainService.js'></script>
+
+</body>
+</html>
